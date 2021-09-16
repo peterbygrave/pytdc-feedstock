@@ -1,5 +1,5 @@
 {% set name = "pytdc" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyTDC-{{ version }}.tar.gz
-  sha256: c8e2a340c0fb32d0eed35afbd0f43a79f543adf8131b77b0682cdfbb6a2f9780
+  sha256: b495805183fed36ca037fb9dd412154109eb8bed1b9c4858be75000f5a5e75eb
 
 build:
   number: 0
