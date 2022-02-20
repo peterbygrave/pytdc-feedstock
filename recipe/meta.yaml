@@ -31,6 +31,7 @@ requirements:
     - networkx
     - rdkit >=2020.03.6
     - requests
+    - seaborn
 
 test:
   imports:
