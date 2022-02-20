@@ -1,5 +1,5 @@
 {% set name = "pytdc" %}
-{% set version = "0.3.5" %}
+{% set version = "0.3.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyTDC-{{ version }}.tar.gz
-  sha256: 665c5396416b832d328325bd4325d0ce87f251bb40661cafd2cd9c15c349ea84
+  sha256: 3ff3c032cd9081f278a2beb6fe9bc5983b373aa45ea2d16aadb674b7b42e66b1
 
 build:
   number: 0
@@ -31,6 +31,7 @@ requirements:
     - networkx
     - rdkit >=2020.03.6
     - requests
+    - seaborn
 
 test:
   imports:
