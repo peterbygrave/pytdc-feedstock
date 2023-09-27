@@ -32,6 +32,7 @@ requirements:
     - rdkit >=2020.03.6
     - requests
     - seaborn
+    - huggingface_hub
 
 test:
   imports:
